@@ -1,0 +1,221 @@
+/* основний колір фону білий #FFFFFF */
+/* акцент #2196F3 */
+/* вторинний колір фону #2F303A */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0 15px;
+    outline: 1px solid red;
+}
+
+.section {
+    padding-bottom: 94px;
+}
+
+header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+/* Logo */
+
+.logo {
+    font-family: Raleway, sans-serif;
+    color: #000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.part-logo {
+    color: var(--accent-color);
+}
+
+/* Site-nav */
+
+.site-nav .link,
+.contact .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact .link:hover,
+.contact .link:focus,
+.footer-list .link:hover,
+.footer-list .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+}
+
+.hero-button {
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+.hero-tittle {
+    padding: 200px 452px 280px;
+
+    background-color: #212121;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Benefits */
+
+.benefits-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+}
+
+
+
+.benefits p {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+}
+
+/* Our team */
+
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Footer */
+
+.footer-list a {
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+}
+
+.footer-list .adress {
+    color: #FFFFFF;
+}
+
+/* Portfolio */
+
+.list-buttons button {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.list-buttons button:hover,
+.list-buttons button:focus {
+    color: #FFFFFF;
+    background: var(--accent-color);
+}
+
+.first-button {
+    padding: 6px 25px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.button {
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.project-list h2 {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+
+}
+
+.project-list a {
+    text-decoration: none;
+}
+
+.project-list p {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+}
