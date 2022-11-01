@@ -148,6 +148,10 @@ header {
 
 /* Benefits */
 
+.benefits .section-title {
+    display: none;
+}
+
 .benefits-list,
 .specialization-list,
 .team-list {
@@ -258,6 +262,10 @@ footer {
 }
 
 /* Portfolio */
+
+.portfolio h1 {
+    display: none;
+}
 
 .list-buttons button {
     color: var(--title-text-color);
